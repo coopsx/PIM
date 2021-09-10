@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>categories</title>
+</head>
+<body>
+    {% for catergory in categories %}
+        {{category.project_ref}}<br>
+        {{category.category}}<br>
+        {{category.sub_category}}<br>
+        {{category.deliverable}}<br>
+        {{category.description}}<br>
+        {{category.owner}}<br>
+        {{category.work_package}}<br>
+        {{category.F/A}}<br>
+        {{category.doc_ref}}<br>
+        {{category.t-number_of_days}}<br>
+        {{category.MIDP_yes/no}}<br>
+    {% endfor%}
+</body>
+</html>
